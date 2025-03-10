@@ -19,6 +19,9 @@ header {
   height: 8vh;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
   .header-container {
     display: flex;
     flex-direction: row;

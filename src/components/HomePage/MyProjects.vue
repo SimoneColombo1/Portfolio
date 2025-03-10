@@ -1,4 +1,11 @@
 <script></script>
 
-<template></template>
-<style lang="scss" scoped></style>
+<template>
+  <section class="MyProjects"></section>
+</template>
+<style lang="scss" scoped>
+.MyProjects {
+  height: 92vh;
+  background-color: red;
+}
+</style>
