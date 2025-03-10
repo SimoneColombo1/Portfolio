@@ -63,6 +63,7 @@ export default {
 .home-page-container {
   display: flex;
   flex-direction: column;
+  max-width: 1400px;
 }
 
 .section {
