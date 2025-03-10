@@ -1,11 +1,11 @@
 <script></script>
 
 <template>
-  <section class="AboutMe"></section>
+  <section class="AboutMe">dd</section>
 </template>
 <style lang="scss" scoped>
 .AboutMe {
-  height: 92vh;
-  background-color: aqua;
+  width: 100%;
+  height: 100%;
 }
 </style>

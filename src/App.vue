@@ -16,4 +16,8 @@ export default {
   </main>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+.main-container {
+  background: linear-gradient(45deg, #ac0ab3, #6a0dad, #3f0061);
+}
+</style>
