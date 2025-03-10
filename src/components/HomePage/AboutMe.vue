@@ -30,7 +30,7 @@
   .content {
     justify-content: center;
     align-items: start;
-    height: 60%;
+    height: 70%;
     display: flex;
     padding: 4rem;
     border-radius: 1rem;
