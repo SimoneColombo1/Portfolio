@@ -2,11 +2,9 @@
 import { defineProps, watch } from "vue";
 import { useRoute } from "vue-router";
 
-// Ottieni l'ID dalla rotta
 const route = useRoute();
 const projectId = route.params.id;
 
-// Lista dei progetti
 const Projects = [
   {
     ProjectId: 1,
