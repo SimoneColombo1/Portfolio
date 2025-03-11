@@ -11,8 +11,8 @@ export default {
 
 <template>
   <main>
+    <AppHeader />
     <section class="Page-Container">
-      <AppHeader />
       <RouterView />
     </section>
   </main>
