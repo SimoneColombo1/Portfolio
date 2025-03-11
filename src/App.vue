@@ -11,13 +11,15 @@ export default {
 
 <template>
   <main>
-    <AppHeader />
-    <RouterView />
+    <section class="Page-Container">
+      <AppHeader />
+      <RouterView />
+    </section>
   </main>
 </template>
 
 <style lang="scss">
-.main-container {
+.Page-Container {
   background-image: url("./images/background.jpg");
   background-size: cover;
   background-attachment: fixed;

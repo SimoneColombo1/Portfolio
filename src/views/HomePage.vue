@@ -72,6 +72,7 @@ export default {
   overflow: hidden;
   scroll-snap-type: y mandatory;
   position: relative;
+  max-width: 1400px;
 
   .section {
     height: 92vh;
