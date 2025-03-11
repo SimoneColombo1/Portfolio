@@ -37,6 +37,7 @@ const Projects = [
     ProjectId: 5,
     name: "BoolzApp",
     content: "Riproduzione dell'interfaccia di una WebApp ispirata a WhatsApp",
+
     tecnologie: ["JavaScript", "HTML", "SCSS"],
   },
 ];
@@ -53,7 +54,7 @@ watch(
 <template>
   <section class="main-container" v-if="project">
     <section class="content">
-      <div class="projects">
+      <div class="project">
         <span>{{ project.name }}</span>
         <span>{{ project.content }}</span>
         <div class="technologies">
@@ -74,25 +75,13 @@ watch(
     max-width: 1400px;
     display: flex;
     padding: 4rem;
-    .projects {
+    .project {
       list-style: none;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      li {
-        width: 40%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: gray;
-        font-size: 1.4rem;
-        margin: 1rem;
-        height: 25rem;
-        border-radius: 1rem;
-      }
     }
   }
 }
