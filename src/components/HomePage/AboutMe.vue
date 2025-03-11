@@ -34,7 +34,7 @@
     display: flex;
     padding: 4rem;
     border-radius: 1rem;
-    background-color: #272727;
+
     color: white;
 
     flex-direction: column;

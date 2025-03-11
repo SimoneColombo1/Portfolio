@@ -19,7 +19,7 @@
     border-radius: 1rem;
     flex-direction: column;
     justify-content: center;
-    background-color: #272727;
+
     h2 {
       color: white;
       font-size: 2.5rem;

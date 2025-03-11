@@ -18,6 +18,8 @@ export default {
 
 <style lang="scss">
 .main-container {
-  background: linear-gradient(45deg, #ac0ab3, #6a0dad, #3f0061);
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 </style>
